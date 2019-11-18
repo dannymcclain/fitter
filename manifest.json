@@ -2,5 +2,19 @@
   "name": "Fit to Frame",
   "id": "771805657022303714",
   "api": "1.0.0",
-  "main": "code.js"
+  "main": "code.js",
+  "menu": [
+    {
+      "name": "Fit to Frame",
+      "command": "fitFrame"
+    },
+    {
+      "name": "Fit to Frame Width",
+      "command": "fitWidth"
+    },
+    {
+      "name": "Fit to Frame Height",
+      "command": "fitHeight"
+    }
+  ]
 }
