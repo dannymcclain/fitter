@@ -37,7 +37,11 @@ if (mySelection.length > 0) {
       }
       figma.closePlugin("✔ Fitted.");
     } else {
-      figma.closePlugin("⚠️️️ No parent.");
+      if (mySelection.length === 1) {
+        figma.closePlugin("⚠️️️ Can't fit it.");
+      } else if (mySelection.length > 1) {
+        figma.closePlugin("⚠️️️ Can't fit them.");
+      }
     }
   });
 } else figma.closePlugin("⚠️ Nothing selected.");
