@@ -1,12 +1,12 @@
 {
-  "name": "Fit to Parent",
+  "name": "Fit",
   "id": "771805657022303714",
   "api": "1.0.0",
   "main": "code.js",
   "menu": [
     {
-      "name": "Fit Parent",
-      "command": "fitParent"
+      "name": "Fit",
+      "command": "fit"
     },
     {
       "name": "Fit Width",
