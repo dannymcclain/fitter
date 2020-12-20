@@ -1,6 +1,6 @@
 # Fitter
 ### Resize an item to fit its parent’s width, height, or both.
-Fitter is a small, very simple, utility plugin for [Figma](https://www.figma.com) that resizes an item (or items) to fit its parent's width, height, or both.
+Fitter is a small, very simple, utility plugin for [Figma](https://www.figma.com) that resizes an item (or items) to fit its parent's width, height, or both. Available on [the Figma Community](https://www.figma.com/community/plugin/917796239623005893/Fitter).
 
 #### Features
 *Pretty self-explanitory but for the sake of clarity...*
@@ -15,3 +15,4 @@ Fitter is a small, very simple, utility plugin for [Figma](https://www.figma.com
 *(Tip: use the `⌘/` keyboard shortcut and type "fit" to quickly run the plugin from your keyboard)*
 
  **A parent can be a frame, component, group, or boolean.*
+
